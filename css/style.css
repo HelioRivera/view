@@ -130,7 +130,13 @@ a:focus {
     color: #414141;
 }
 
+.image-member {
 
+    object-fit: cover;
+    width: 270px;
+    height: 270px;
+    border-radius: 0rem;
+}
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -791,7 +797,8 @@ a:focus {
 }
 
 .service .service-item:hover .service-text h3,
-.service .service-item:hover .service-text p {
+.service .service-item:hover .service-text p,
+.service .service-item:hover .service-text li {
     color: #ffffff;
 }
 
