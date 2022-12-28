@@ -1,3 +1,7 @@
+<?php
+    include_once "coneccion/conexion.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -64,11 +68,11 @@
                                 <!-- <p>I'm</p> -->
                                 <h1>Helio Rivera</h1>
                                 <h2></h2>
-                                <div class="typed-text">Machine Learnig Engineer and web developer</div>
+                                <div class="typed-text">Software Engineer Machine Learning and Web Developer</div>
                             </div>
                             <div class="hero-btn">
                                 <!-- <a class="btn" href="">Hire Me</a> -->
-                                <a class="btn" href="document/Curriculum_Helio_Rivera.pdf">Download curriculum</a>
+                                <a class="btn" href="document/Curriculum_helio.pdf">Download curriculum</a>
                             </div>            
                         </div>
                     </div>
@@ -342,19 +346,22 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>cutelqui.cl</h3>
-                                <a class="btn" href="https://cutelqui.cl/bootstrap">+</a>
+                                <a href="#modal1" >Mas</a>
                             </div>
                             <div class="portfolio-text">
                                 <h3>msocial.cl</h3>
-                                <a class="btn" href="https://msocial.cl" >+</a>
+                                <a href="#modal1" >Mas</a>
+                                <!-- <a class="btn" href="https://msocial.cl" >+</a> -->
                             </div>
                             <div class="portfolio-text">
                                 <h3>mindcl.cl</h3><br>
-                                <a class="btn" href="https://mindcl.cl">+</a>
+                                <a href="#modal1" >Mas</a>
+                                <!-- <a class="btn" href="https://mindcl.cl">+</a> -->
                             </div>
                             <div class="portfolio-text">
                                 <h3>respelsuspel.cl</h3>
-                                <a class="btn" href="https://respelsuspel.cl" >+</a>
+                                <a href="#modal1" >Mas</a>
+                                <!-- <a class="btn" href="https://respelsuspel.cl" >+</a> -->
                             </div>
                         </div>
                     </div>
@@ -365,7 +372,8 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>DISTO</h3>
-                                <a class="btn" href="https://disto.me">+</a>
+                                <a href="#modal1" >Mas</a>
+                                <!-- <a class="btn" href="https://disto.me">+</a> -->
                             </div>
                             <!-- <div class="portfolio-text">
                                 <h3>InfoWeb</h3>
@@ -793,8 +801,34 @@
             </div>
         </div>
         <!-- Footer End -->
-        
-        
+        <!-- ventana modal -->
+        <div id="modal1" class="modalmask">
+            <div class="modalbox movedown">
+                <a href="#close" title="Close" class="close">X</a>
+                <h3>Proyecto de desarrollo web</h3>
+                <a href="https://cutelqui.cl">visitar sítio</a>
+                <p>La ventana modal aparece por arriba y se desliza hasta su posición. Un efecto simple pero elegante.</p>
+                <p>Aquí puedes incluir cualquier cosa como vídeos, mapas, formularios...</p>
+            </div>
+        </div>
+        <!-- end ventana modal  -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <!-- Back to top button -->
         <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
         
