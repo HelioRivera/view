@@ -213,7 +213,7 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
+        color: #e0dada;
     }
 
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
