@@ -253,11 +253,11 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    padding: 120px 0 20px 0;
+    padding: 120px 0 0px 0;
     overflow: hidden;
     /* background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg); */
-    background: linear-gradient(rgba(88, 86, 86, 0.95), rgba(247, 241, 242, 0.95)), url(../img/lenguaje-programacion.webp);
-
+    /* background: linear-gradient(rgba(88, 86, 86, 0.95), rgba(247, 241, 242, 0.95)), url(../img/lenguaje-programacion.webp); */
+    background:url(../img/lenguaje_programacion.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,9 +269,9 @@ a:focus {
 
 .hero .hero-image {
     position: relative;
-    text-align: center;
-    /* padding-right: 0px; */
+    /* text-align: center; */
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .hero .hero-image img {
@@ -323,7 +323,8 @@ a:focus {
 }
 
 .hero .hero-btn .btn {
-    margin-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: #6069b8;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
@@ -371,7 +372,7 @@ a:focus {
 @media (max-width: 767.98px) {
     .hero {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 0px;
     }
 
     .hero,
