@@ -557,6 +557,13 @@ a:focus {
     line-height: 1.2;
 }
 
+.tech-item:hover,
+.tech-item:focus {
+    color: #6069b8;
+    border-color: #6069b8;
+    text-decoration: none;
+}
+
 .tech-item img {
     width: 22px;
     height: 22px;
