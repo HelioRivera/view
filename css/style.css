@@ -516,6 +516,60 @@ a:focus {
     font-size: 16px;
 }
 
+.technologies {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.tech-groups {
+    display: grid;
+    gap: 18px;
+}
+
+.tech-group {
+    margin-bottom: 12px;
+}
+
+.tech-group h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #414141;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-item {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 6px 12px;
+    border: 1px solid rgba(65, 65, 65, .14);
+    border-radius: 6px;
+    background: #ffffff;
+    color: #414141;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.tech-item img {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+}
+
+.tech-item i {
+    min-width: 22px;
+    margin-right: 7px;
+    color: #6069b8;
+    text-align: center;
+}
+
 .about .skills {
     margin-bottom: 30px;
 }
